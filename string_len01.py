@@ -1,4 +1,5 @@
 def main(a):
+
     """
     A variable of type string is given. Find its length.
     Args:
@@ -6,4 +7,5 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    a=str(a)
+    return len(a)
