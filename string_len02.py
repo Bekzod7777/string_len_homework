@@ -1,4 +1,5 @@
 def main(a):
+    a=str(a)
     """
     A string type variable is given. Return True if its length is even. Return False if its length is odd.
     Args:
@@ -6,4 +7,7 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    if len(a)%2==0:
+        return True
+    else:
+        return False
