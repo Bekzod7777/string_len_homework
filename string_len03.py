@@ -7,4 +7,10 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    a=str(a)
+    b=str(b)
+    if len(a)==len(b):
+        return True
+    else:
+        return False
+        
